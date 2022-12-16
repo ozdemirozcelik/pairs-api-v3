@@ -103,7 +103,7 @@ class SignalUpdateOrder(Resource):
 
                     else:
                         if item.price1:
-                            item.fill_price = item.price1 and item.ticker1 == data["symbol"]  # double check ticker symbol
+                            item.fill_price = item.price1
 
                             if item.order_contracts > data["filled_qty"]:
                                 item.order_status = "part.filled"
