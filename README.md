@@ -3,14 +3,16 @@
 
 Version 3 of the Flask-RESTful API.
 
-(Latest Release: v3.2)
+Check this repository for the latest release:
+https://github.com/ozdemirozcelik/pairs-api
+
 
 Built from the ground-up with Flask-RESTful & Flask-SQLAlchemy & Flask-JWT-Extended.
 Configured to be used with SQLite3 for local use.
 
 A working demo for the latest release is deployed in Heroku with PostgreSQL:
 
-https://api-pairs.herokuapp.com/
+https://api-pairs-v3.herokuapp.com/
 
 # Watch Demo
 
@@ -600,7 +602,7 @@ webhook URL should be:  '{URL_OF_YOUR_API}/v3/webhook'
 
 # Demo:
 
-https://api-pairs.herokuapp.com/
+https://api-pairs-v3.herokuapp.com/
 
 # Using with Interactive Brokers
 
